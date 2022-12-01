@@ -127,7 +127,7 @@ if __name__ == "__main__":
     logger.debug("Response headers: " + str(r.headers))
     logger.debug("Response content: " + str(r.text))
 
-    if r.status_code == 200:
+    if r.status_code == 200: #Parbauda vai ir veiksmigi piesledzies 
     #Panem datus no json faila
         json_data = json.loads(r.text)
     #izveido tuksus masivus, kuros velak tiks ievietoti iegutie dati no NASA API
