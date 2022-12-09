@@ -1,1 +1,1 @@
-Fail comments
+Kursa praktisko darbu repo
